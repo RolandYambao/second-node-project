@@ -7,6 +7,7 @@ console.log(myModule.newerFunction());
 console.log(myModule.newestFunction());
 console.log(myModule.newNumbers);
 console.log(myModule.newObject);
+console.log(myModule.newObject.newThing.someOther);
 
 fs.readFile('story.txt', 'utf8', function(err, data){
         console.log(data);
