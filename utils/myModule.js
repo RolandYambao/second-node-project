@@ -12,6 +12,10 @@ let newObject = {
     person: "guy",
     place: "location",
     thing: "something",
+    newThing: {
+        someOther: "otherSome",
+        whatThing: "thingWhat",
+    }
 }
 
 module.exports = {
