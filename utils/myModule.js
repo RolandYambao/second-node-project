@@ -24,5 +24,4 @@ module.exports = {
     newestFunction,
     newNumbers,
     newObject,
-
 }
