@@ -12,3 +12,11 @@ console.log(myModule.newObject.newThing.someOther);
 fs.readFile('story.txt', 'utf8', function(err, data){
         console.log(data);
 });
+
+const http = require('http');
+
+http.createServer((req, res) => { 
+   res.write('Goodbye, World!');
+   res.end();
+})
+.listen(8000);
