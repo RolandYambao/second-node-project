@@ -9,14 +9,16 @@ console.log(myModule.newNumbers);
 console.log(myModule.newObject);
 console.log(myModule.newObject.newThing.someOther);
 
-fs.readFile('story.txt', 'utf8', function(err, data){
-        console.log(data);
+fs.readFile('story.txt', 'utf8', function (err, data) {
+    console.log(data);
 });
 
-const http = require('http');
+// const http = require('http');
 
-http.createServer((req, res) => { 
-   res.write('Goodbye, World!');
-   res.end();
-})
-.listen(8000);
+// http.createServer((req, res) => { 
+//    res.write('Goodbye, World!');
+//    res.end();
+// })
+// .listen(8000);
+
+const faker = require("faker");

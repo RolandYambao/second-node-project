@@ -17,5 +17,8 @@
     "url": "https://github.com/RolandYambao/second-node-project/issues"
   },
   "homepage": "https://github.com/RolandYambao/second-node-project#readme",
-  "keywords": []
+  "keywords": [],
+  "dependencies": {
+    "faker": "^5.5.3"
+  }
 }
