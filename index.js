@@ -22,3 +22,5 @@ fs.readFile('story.txt', 'utf8', function (err, data) {
 // .listen(8000);
 
 const faker = require("faker");
+let randomName = faker.name.findName();
+console.log(randomName);
