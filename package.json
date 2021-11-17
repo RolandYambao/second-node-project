@@ -19,6 +19,7 @@
   "homepage": "https://github.com/RolandYambao/second-node-project#readme",
   "keywords": [],
   "dependencies": {
+    "axios": "^0.24.0",
     "faker": "^5.5.3"
   }
 }
